@@ -27,7 +27,7 @@ class Calendar(HTMLParser):
 def svg(body, height, label):
     return f'<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="{height}" viewBox="0 0 1200 {height}" role="img" aria-label="{html.escape(label)}"><rect width="1200" height="{height}" rx="12" fill="#101c21"/>{body}</svg>'
 
-def text(x,y,value,size=16,color='#dce6dd',family='monospace'):
+def text(x,y,value,size=16,color='#dce6dd',family='system-ui, -apple-system, Segoe UI, sans-serif'):
     return f'<text x="{x}" y="{y}" fill="{color}" font-size="{size}" font-family="{family}">{html.escape(str(value))}</text>'
 
 def refresh():
@@ -52,7 +52,7 @@ def refresh():
     dates=sorted(calendar.days)
     start=dt.date.fromisoformat(dates[0])
     colors=['#213138','#446259','#638b69','#a4bf79','#d3f492']
-    body=text(42,43,'04 / THE PRACTICE',14,'#d3f492')+text(42,91,'Small steps. A visible trail.',34,family='Georgia,serif')
+    body=text(42,43,'THE PRACTICE / ONE DAY AT A TIME',14,'#d3f492',family='monospace')+text(42,91,'Small steps. A visible trail.',34,family='Georgia,serif')
     body+=text(42,124,f'{total} visible contributions · {dates[0]} — {dates[-1]}',15,'#a6b7b6')
     active=0
     for date in dates:
@@ -69,7 +69,32 @@ def refresh():
     for i,c in enumerate(colors):
         body+=f'<rect x="{931+i*25}" y="315" width="16" height="16" rx="3" fill="{c}"/>'
     body+=text(1064,327,'MORE',11,'#a6b7b6')
-    activity=svg(body,356,'Public GitHub contributions; detailed accessible calendar linked below')
+    # Decorative snake follows rows without changing the underlying activity cells.
+    last_x=45+((len(dates)-1)//7)*20.7+7.5
+    route=[]
+    for row in range(7):
+        y=165.5+row*20
+        left,right=52.5,last_x
+        if row==0:
+            route.append(f'M{left:.1f} {y:.1f}')
+        route.append(f'H{right if row%2==0 else left:.1f}')
+        if row<6:
+            route.append(f'V{y+20:.1f}')
+    # A closed perimeter return keeps the crawl seamless between loops.
+    route.append(f'V298 H32 V145.5 H52.5 V165.5')
+    route=' '.join(route)
+    body+=f'''<style>
+      @keyframes crawl {{ from {{stroke-dashoffset:1000}} to {{stroke-dashoffset:0}} }}
+      .snake {{animation:crawl 80s linear infinite;fill:none;stroke-linecap:round;stroke-linejoin:round}}
+      @media(prefers-reduced-motion:reduce) {{.snake{{display:none}}}}
+    </style><g aria-hidden="true">
+      <path class="snake" d="{route}" pathLength="1000" stroke="#0b1519" stroke-width="15" stroke-dasharray="12 988"/>
+      <path class="snake" d="{route}" pathLength="1000" stroke="#d3f492" stroke-width="9" stroke-dasharray="12 988"/>
+      <path class="snake" d="{route}" pathLength="1000" style="animation-delay:-.88s" stroke="#ef9a70" stroke-width="9" stroke-dasharray="1 999"/>
+    </g>'''
+    body+=text(42,369,'A little snake, a lot of practice.',16,'#dce6dd',family='Georgia,serif')
+    body+=text(42,392,'Decorative animation · contribution values remain unchanged',12,'#a6b7b6')
+    activity=svg(body,420,'GitHub contribution calendar with a decorative crawling snake; detailed accessible calendar linked below')
     originals=sorted((r for r in repos if not r['fork'] and r['name'].lower()!=USER.lower()),key=lambda r:r['name'].lower())
     forks=sorted((r for r in repos if r['fork']),key=lambda r:r['name'].lower())
     curated={

@@ -3,21 +3,27 @@
 </p>
 
 <p align="center">
-  <a href="#user-content-selected-work">SELECTED WORK</a> &nbsp; / &nbsp;
-  <a href="https://karmsakha.github.io/KarmSakha/">PLAY ARCADE ↗</a> &nbsp; / &nbsp;
-  <a href="#user-content-experience">EXPERIENCE</a> &nbsp; / &nbsp;
-  <a href="#user-content-beyond-the-public-repos">PRIVATE PROJECTS</a> &nbsp; / &nbsp;
-  <a href="#user-content-the-practice">ACTIVITY</a> &nbsp; / &nbsp;
-  <a href="#user-content-the-complete-public-index">INDEX</a>
+  <a href="#user-content-selected-work">Selected work</a> &nbsp; / &nbsp;
+  <a href="https://karmsakha.github.io/KarmSakha/">Play arcade ↗</a> &nbsp; / &nbsp;
+  <a href="#user-content-experience">Experience</a> &nbsp; / &nbsp;
+  <a href="#user-content-beyond-the-public-repos">Private projects</a> &nbsp; / &nbsp;
+  <a href="#user-content-a-visible-trail">Activity</a> &nbsp; / &nbsp;
+  <a href="#user-content-the-complete-public-index">All repositories</a>
 </p>
 
 <br />
 
-### I’m Yaman Khetan — full-stack AI engineer & founder.
+## Yaman Khetan
 
-I turn complex ideas into **software people can use**: production web platforms, data pipelines, AI agents, native apps, and language-model experiments. My work connects the model and backend to the interface, checkout, deployment, and day-to-day operation.
+**Full-stack AI engineer & founder** · Surat, India
 
-I’ve built software and automation for **6+ years**, including **3+ years shipping production web, data, and AI systems**. Running a family manufacturing business since 2015 taught me to start with real constraints: people, time, reliability, and getting the work out the door.
+I build **software people can use** — from AI models and agents to production web platforms and native apps.
+
+My work connects the model and backend to the interface, payments, deployment, and everyday operation.
+
+**6+ years building software and automation.** **3+ years shipping production web, data, and AI systems.**
+
+Running a family manufacturing business since 2015 taught me to build around real constraints: people, time, reliability, and getting the work out the door.
 
 <p align="center">
   <a href="https://karmx.dev">Portfolio ↗</a> &nbsp; · &nbsp;
@@ -435,11 +441,11 @@ Earlier experiments and project iterations, all **🔒 Private**. This inventory
 
 <br />
 
-## The practice
+## A visible trail
 
 <a href="https://github.com/KarmSakha?tab=overview"><img src="assets/activity.svg" width="100%" alt="Contribution calendar including publicly shared private-activity counts from KarmSakha’s GitHub profile. Open GitHub for dates, counts, and contribution details." /></a>
 
-[Explore the live contribution calendar →](https://github.com/KarmSakha?tab=overview)
+[Explore the live contribution calendar →](https://github.com/KarmSakha?tab=overview) · [Play Pixel Snake →](https://karmsakha.github.io/KarmSakha/#snake)
 
 <sub>This snapshot includes public activity and anonymized private contribution counts when enabled in my GitHub settings. Private repository contents remain hidden. It refreshes daily; the live GitHub calendar may update sooner.</sub>
 
