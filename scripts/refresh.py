@@ -53,7 +53,7 @@ def refresh():
     start=dt.date.fromisoformat(dates[0])
     colors=['#213138','#446259','#638b69','#a4bf79','#d3f492']
     body=text(42,43,'04 / THE PRACTICE',14,'#d3f492')+text(42,91,'Small steps. A visible trail.',34,family='Georgia,serif')
-    body+=text(42,124,f'{total} public-profile contributions · {dates[0]} — {dates[-1]}',15,'#a6b7b6')
+    body+=text(42,124,f'{total} visible contributions · {dates[0]} — {dates[-1]}',15,'#a6b7b6')
     active=0
     for date in dates:
         days=(dt.date.fromisoformat(date)-start).days
@@ -64,7 +64,7 @@ def refresh():
         x=45+(days//7)*20.7
         y=158+(days%7)*20
         body+=f'<rect x="{x:.1f}" y="{y}" width="15" height="15" rx="3" fill="{colors[level]}"><title>{date}: activity level {level}/4</title></rect>'
-    body+=text(42,327,f'{active} active days  /  Public activity only',14,'#a6b7b6')
+    body+=text(42,327,f'{active} active days  /  Includes private activity when shared',13,'#a6b7b6')
     body+=text(883,327,'LESS',11,'#a6b7b6')
     for i,c in enumerate(colors):
         body+=f'<rect x="{931+i*25}" y="315" width="16" height="16" rx="3" fill="{c}"/>'

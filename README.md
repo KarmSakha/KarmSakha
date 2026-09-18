@@ -333,11 +333,11 @@ Earlier experiments and project iterations, all **🔒 Private**. This inventory
 
 ## The practice
 
-<a href="https://github.com/KarmSakha?tab=overview"><img src="assets/activity.svg" width="100%" alt="Contribution calendar generated from KarmSakha’s public GitHub profile. Open GitHub for dates, counts, and contribution details." /></a>
+<a href="https://github.com/KarmSakha?tab=overview"><img src="assets/activity.svg" width="100%" alt="Contribution calendar including publicly shared private-activity counts from KarmSakha’s GitHub profile. Open GitHub for dates, counts, and contribution details." /></a>
 
 [Explore the live contribution calendar →](https://github.com/KarmSakha?tab=overview)
 
-<sub>This snapshot uses only activity visible to signed-out visitors. It refreshes daily through GitHub Actions; GitHub’s live profile is the source of truth.</sub>
+<sub>This snapshot includes public activity and anonymized private contribution counts when enabled in my GitHub settings. Private repository contents remain hidden. It refreshes daily; the live GitHub calendar may update sooner.</sub>
 
 <br />
 
