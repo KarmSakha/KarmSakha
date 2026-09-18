@@ -1,10 +1,10 @@
 <p align="center">
-  <a href="https://karmx.dev"><img src="assets/hero.svg" width="100%" alt="KarmSakha — the builder’s atlas. From model weights to the last pixel. AI systems, developer tools, and useful software." /></a>
+  <a href="https://karmx.dev"><img src="assets/hero.svg" width="100%" alt="Yaman Khetan — full-stack AI engineer and founder. From model weights to the last pixel." /></a>
 </p>
 
 <p align="center">
   <a href="#user-content-selected-work">SELECTED WORK</a> &nbsp; / &nbsp;
-  <a href="#user-content-the-model-lab">MODEL LAB</a> &nbsp; / &nbsp;
+  <a href="#user-content-experience">EXPERIENCE</a> &nbsp; / &nbsp;
   <a href="#user-content-beyond-the-public-repos">PRIVATE PROJECTS</a> &nbsp; / &nbsp;
   <a href="#user-content-the-practice">ACTIVITY</a> &nbsp; / &nbsp;
   <a href="#user-content-the-complete-public-index">INDEX</a>
@@ -12,17 +12,22 @@
 
 <br />
 
-### Software is where my interests meet.
+### I’m Yaman Khetan — full-stack AI engineer & founder.
 
-I build across **AI systems, developer tools, native apps, and the web**. My work spans training a small language model from scratch, making larger models practical on consumer hardware, building a terminal coding agent, and turning complex workflows into usable interfaces.
+I turn complex ideas into **software people can use**: production web platforms, data pipelines, AI agents, native apps, and language-model experiments. My work connects the model and backend to the interface, checkout, deployment, and day-to-day operation.
 
-I care about the whole thing: the model, the API, the interaction, and the evidence that it works.
+I’ve built software and automation for **6+ years**, including **3+ years shipping production web, data, and AI systems**. Running a family manufacturing business since 2015 taught me to start with real constraints: people, time, reliability, and getting the work out the door.
 
 <p align="center">
-  <a href="https://karmx.dev">↗ Explore karmx.dev</a> &nbsp; · &nbsp;
-  <a href="https://huggingface.co/karmx">↗ Models & datasets</a> &nbsp; · &nbsp;
-  <a href="https://github.com/KarmSakha?tab=repositories">↗ Browse the code</a>
+  <a href="https://karmx.dev">Portfolio ↗</a> &nbsp; · &nbsp;
+  <a href="https://karmsakha.com">KarmSakha ↗</a> &nbsp; · &nbsp;
+  <a href="https://www.linkedin.com/in/yaman-khetan-430a7b1a5/">LinkedIn ↗</a> &nbsp; · &nbsp;
+  <a href="https://huggingface.co/karmx">Models & datasets ↗</a>
 </p>
+
+<img src="assets/impact.svg" width="100%" alt="Product reach and research: 145,000 organic Google clicks and 7.72 million impressions in a three-month period reported in my résumé; a 139.7-million-parameter language model trained from scratch." />
+
+<sub>Product reach is from a three-month period reported in my résumé, not a live analytics feed. Model details and evaluations are published in the linked repositories.</sub>
 
 <br />
 
@@ -31,6 +36,8 @@ I care about the whole thing: the model, the API, the interaction, and the evide
 <a href="https://github.com/KarmSakha/karmx-agent"><img src="assets/agent.svg" width="100%" alt="01 — karmX. A coding agent with a view of your app. Rust, context retrieval, live browser preview, and configurable models." /></a>
 
 **[Explore karmX →](https://github.com/KarmSakha/karmx-agent)** · [Website](https://karmx.dev)
+
+Built on a fork of **[Block’s goose](https://github.com/block/goose)** (Apache-2.0), with my work focused on prompt enhancement, context retrieval, browser integration, model pairing, and predictive compaction. [Provenance](https://github.com/KarmSakha/karmx-agent/blob/main/NOTICE).
 
 <details>
 <summary><strong>Inside the agent → context, browser, collaboration</strong></summary>
@@ -99,6 +106,61 @@ My community quantization releases explore **mixed precision, long-context infer
 <summary><strong>What “128K” means in this work</strong></summary>
 
 A configured context capacity is not a guarantee of reliable retrieval or reasoning across that entire window. Results depend on hardware, runtime, cache precision, and workload. The Nex release records a failed no-regression gate and long-context accuracy limitations. Each repository preserves the relevant evidence instead of turning a capacity number into a general capability claim.
+
+</details>
+
+<br />
+
+## Experience
+
+**From running operations to building the software behind them.**
+
+| Period | Role & focus |
+| :--- | :--- |
+| **Aug 2023–present** | **Product Engineer & Founder · KarmSakha** — career and exam-preparation platform, ingestion pipelines, job recommendations, payments, and production operations. |
+| **Jan 2026–present** | **AI Systems & Product Engineer · KarmX** — local model serving, agent orchestration, evaluation pipelines, and open-source model releases. |
+| **Jan 2026–present** | **Founder & Full-Stack Product Engineer · Udayy** — building a free K–12 learning platform, initially focused on CBSE, with teachers and content collaborators. |
+| **Jan 2024–present** | **Founder & E-commerce Engineer · Zylver** — Shopify storefront engineering alongside payments, orders, logistics, and marketing. |
+| **Apr 2015–present** | **Owner · Vaidehi Rigids** — family packaging-manufacturing operations; automating order, production, and dispatch workflows since 2019. |
+
+<details>
+<summary><strong>KarmSakha · what end-to-end ownership looks like</strong></summary>
+
+- Built a career and exam-preparation product covering government-job discovery, mock tests, current affairs, courses, eBooks, accounts, and paid content.
+- Designed ingestion across approximately **12,000 source domains**, with normalization, deduplication, and validation before publication.
+- Built personalized recommendations and conversational job discovery through a WhatsApp AI bot.
+- Connected application accounts and content access with checkout, payment webhooks, and entitlement fulfillment.
+- Operate containerized releases with health checks and CI/CD; handle application, database, DNS, and SSL troubleshooting.
+
+These describe my product and engineering responsibilities. Private implementation and operational details remain closed.
+
+</details>
+
+<details>
+<summary><strong>KarmX · systems around the model</strong></summary>
+
+My work includes authenticated model serving, streaming and tool calling, model routing, isolated parallel-agent execution, context budgets, and failover. I build resumable evaluations covering coding, multilingual instructions, OCR, vision, retrieval, speed, and memory.
+
+I use Claude Code and Codex in the development loop, checking generated changes with tests, rendered interfaces, and executable validation.
+
+</details>
+
+<br />
+
+## How I build
+
+| Layer | Tools I work with | Where they show up |
+| :--- | :--- | :--- |
+| **Interface** | TypeScript, React, Next.js, Tailwind, Shopify Liquid | Product interfaces, content platforms, commerce storefronts |
+| **Services & data** | Python, FastAPI, Node.js, SQL, PostgreSQL, Supabase, SQLite | APIs, authentication, webhooks, ingestion, data validation |
+| **Models & agents** | PyTorch, llama.cpp, GGUF, LLM APIs, tool calling, LightGBM | Training, quantization, agent workflows, evaluations |
+| **Delivery** | Docker, Linux, GitHub Actions, Playwright, monitoring | CI/CD, blue-green releases, integration and regression checks |
+
+<details>
+<summary><strong>Education & foundations</strong></summary>
+
+- **Post Graduate Diploma in Data Science** · IIIT Bangalore · 2018–2019
+- **Bachelor of Management Studies** · Wilson College, Mumbai · 2012–2015
 
 </details>
 
@@ -197,6 +259,20 @@ An AI-assisted resume-building project with templates, tailored content, and doc
 My personal portfolio with a scroll-driven presentation of my work.
 
 **Tools:** Web · GSAP
+
+</details>
+
+<details>
+<summary><strong>Algorithmic Stock Research Suite</strong> · 🔒 Private</summary>
+
+A LightGBM research pipeline covering approximately 750 Indian equities, with time-aware validation, purge gaps, and look-ahead audits, plus a React/FastAPI dashboard. The emphasis is on research discipline and reproducible evaluation.
+
+</details>
+
+<details>
+<summary><strong>Course-Video Production Pipeline</strong> · 🔒 Private</summary>
+
+A manifest-driven Hindi/Hinglish content workflow spanning scripts, text-to-speech, Remotion animation, captions, and guarded YouTube scheduling, with resumable runs.
 
 </details>
 
