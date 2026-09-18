@@ -4,6 +4,7 @@
 
 <p align="center">
   <a href="#user-content-selected-work">SELECTED WORK</a> &nbsp; / &nbsp;
+  <a href="https://karmsakha.github.io/KarmSakha/">PLAY ARCADE ↗</a> &nbsp; / &nbsp;
   <a href="#user-content-experience">EXPERIENCE</a> &nbsp; / &nbsp;
   <a href="#user-content-beyond-the-public-repos">PRIVATE PROJECTS</a> &nbsp; / &nbsp;
   <a href="#user-content-the-practice">ACTIVITY</a> &nbsp; / &nbsp;
@@ -86,6 +87,33 @@ A Django API and React/MapLibre interface that connects trip routing to duty sch
 
 A planning prototype with documented assumptions, **not a certified ELD**. [Explore the implementation and tests.](https://github.com/KarmSakha/truck-log)
 
+</details>
+
+<br />
+
+## After hours · developer arcade
+
+<a href="https://karmsakha.github.io/KarmSakha/"><img src="assets/arcade.svg" width="100%" alt="Developer Arcade — play Pixel Snake, solve five JavaScript debugging challenges, or explore my work in a portfolio terminal. Open the arcade." /></a>
+
+**[Play Pixel Snake →](https://karmsakha.github.io/KarmSakha/#snake)** · **[Take Debug Quest →](https://karmsakha.github.io/KarmSakha/#debug)** · **[Open Dev Terminal →](https://karmsakha.github.io/KarmSakha/#terminal)**
+
+A little space for the joy of building. Keyboard and touch controls, a personal Snake high score, and five bugs between you and green. No account needed. Games open in the companion arcade; the profile itself stays easy to browse.
+
+<details>
+<summary><strong>A 10-second side quest: what does this JavaScript return?</strong></summary>
+
+```js
+[1, 2, 3].map(number => { number * 2; });
+```
+
+<details>
+<summary>Reveal the answer</summary>
+
+`[undefined, undefined, undefined]`. A block-bodied arrow function needs an explicit `return`. Write `number => number * 2` or `number => { return number * 2; }`.
+
+More challenges await in **[Debug Quest](https://karmsakha.github.io/KarmSakha/#debug)**.
+
+</details>
 </details>
 
 <br />
