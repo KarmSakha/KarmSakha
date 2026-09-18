@@ -3,11 +3,11 @@
 </p>
 
 <p align="center">
-  <a href="#selected-work">SELECTED WORK</a> &nbsp; / &nbsp;
-  <a href="#the-model-lab">MODEL LAB</a> &nbsp; / &nbsp;
-  <a href="#beyond-the-public-repos">PRIVATE PROJECTS</a> &nbsp; / &nbsp;
-  <a href="#the-practice">ACTIVITY</a> &nbsp; / &nbsp;
-  <a href="#the-complete-public-index">INDEX</a>
+  <a href="#user-content-selected-work">SELECTED WORK</a> &nbsp; / &nbsp;
+  <a href="#user-content-the-model-lab">MODEL LAB</a> &nbsp; / &nbsp;
+  <a href="#user-content-beyond-the-public-repos">PRIVATE PROJECTS</a> &nbsp; / &nbsp;
+  <a href="#user-content-the-practice">ACTIVITY</a> &nbsp; / &nbsp;
+  <a href="#user-content-the-complete-public-index">INDEX</a>
 </p>
 
 <br />
