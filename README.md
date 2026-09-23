@@ -463,6 +463,7 @@ Earlier experiments and project iterations, all **🔒 Private**. This inventory
 | [Qwen3.6-35B-A3B-Uncensored-Mixed-128K-GGUF](https://github.com/KarmSakha/Qwen3.6-35B-A3B-Uncensored-Mixed-128K-GGUF) | Community GGUF quantization pipelines and evaluation artifacts for 16 GB GPU experiments. | PowerShell |
 | [Qwen3.8-27B-OBLITERATED-Mixed-128K-GGUF](https://github.com/KarmSakha/Qwen3.8-27B-OBLITERATED-Mixed-128K-GGUF) | Community mixed-precision GGUF release with calibration, MTP preservation, and reproduction evidence. | PowerShell |
 | [TinyQuery-140M](https://github.com/KarmSakha/TinyQuery-140M) | 139.7M-parameter experimental model trained from scratch for multilingual SQL and tool-call generation. | Python |
+| [tmp-adapter-store](https://github.com/KarmSakha/tmp-adapter-store) | temp | Documentation |
 | [truck-log](https://github.com/KarmSakha/truck-log) | HOS Desk: route planning and daily duty-log visualization. Planning prototype; not a certified ELD. | JavaScript |
 
 <details>
@@ -473,7 +474,7 @@ Earlier experiments and project iterations, all **🔒 Private**. This inventory
 
 </details>
 
-<sub>Public repository inventory refreshed 2026-09-22 UTC. Languages are repository metadata, not proficiency scores.</sub>
+<sub>Public repository inventory refreshed 2026-09-23 UTC. Languages are repository metadata, not proficiency scores.</sub>
 
 <!-- PUBLIC-INDEX:END -->
 
