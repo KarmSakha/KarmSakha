@@ -459,6 +459,7 @@ Earlier experiments and project iterations, all **🔒 Private**. This inventory
 | :--- | :--- | :--- |
 | [karmsakha-web-intelligence](https://github.com/KarmSakha/karmsakha-web-intelligence) | Public web-intelligence repository; README links to the project homepage. | Documentation |
 | [karmx-agent](https://github.com/KarmSakha/karmx-agent) | Terminal coding agent with context retrieval, prompt enhancement, browser preview, and configurable models. | Rust |
+| [mac-game-porter](https://github.com/KarmSakha/mac-game-porter) | Play Windows games on Mac (Apple Silicon M1–M5). Free, open-source CrossOver alternative: one-click app turns Windows games &amp; FitGirl/FreeArc repacks into Mac apps with Apple Game Porting Toolkit (D3DMetal, DirectX 12 → Metal). | Rust |
 | [Nex-N2.5-mini-Mixed-Q2Q3-128K-GGUF](https://github.com/KarmSakha/Nex-N2.5-mini-Mixed-Q2Q3-128K-GGUF) | Community quantization, deployment recipes, and documented evaluation tradeoffs. | Documentation |
 | [Qwen3.6-35B-A3B-Uncensored-Mixed-128K-GGUF](https://github.com/KarmSakha/Qwen3.6-35B-A3B-Uncensored-Mixed-128K-GGUF) | Community GGUF quantization pipelines and evaluation artifacts for 16 GB GPU experiments. | PowerShell |
 | [Qwen3.8-27B-OBLITERATED-Mixed-128K-GGUF](https://github.com/KarmSakha/Qwen3.8-27B-OBLITERATED-Mixed-128K-GGUF) | Community mixed-precision GGUF release with calibration, MTP preservation, and reproduction evidence. | PowerShell |
@@ -474,7 +475,7 @@ Earlier experiments and project iterations, all **🔒 Private**. This inventory
 
 </details>
 
-<sub>Public repository inventory refreshed 2026-09-28 UTC. Languages are repository metadata, not proficiency scores.</sub>
+<sub>Public repository inventory refreshed 2026-09-29 UTC. Languages are repository metadata, not proficiency scores.</sub>
 
 <!-- PUBLIC-INDEX:END -->
 
