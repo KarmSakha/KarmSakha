@@ -457,6 +457,7 @@ Earlier experiments and project iterations, all **🔒 Private**. This inventory
 
 | Project | What lives here | Primary language |
 | :--- | :--- | :--- |
+| [insurstaq-plugins](https://github.com/KarmSakha/insurstaq-plugins) | InsurStaq Guard plugins for Claude Code, Codex, Cursor and VS Code: check your coding agent&#x27;s changes with InsurStaq on your Mac (security metadata only, never source code). | Shell |
 | [karmsakha-web-intelligence](https://github.com/KarmSakha/karmsakha-web-intelligence) | Public web-intelligence repository; README links to the project homepage. | Documentation |
 | [karmx-agent](https://github.com/KarmSakha/karmx-agent) | Terminal coding agent with context retrieval, prompt enhancement, browser preview, and configurable models. | Rust |
 | [mac-game-porter](https://github.com/KarmSakha/mac-game-porter) | Play Windows games on Mac (Apple Silicon M1–M5). Free, open-source CrossOver alternative: one-click app turns Windows games &amp; FitGirl/FreeArc repacks into Mac apps with Apple Game Porting Toolkit (D3DMetal, DirectX 12 → Metal). | Rust |
@@ -475,7 +476,7 @@ Earlier experiments and project iterations, all **🔒 Private**. This inventory
 
 </details>
 
-<sub>Public repository inventory refreshed 2026-10-04 UTC. Languages are repository metadata, not proficiency scores.</sub>
+<sub>Public repository inventory refreshed 2026-10-05 UTC. Languages are repository metadata, not proficiency scores.</sub>
 
 <!-- PUBLIC-INDEX:END -->
 
