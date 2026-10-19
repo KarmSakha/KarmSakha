@@ -475,6 +475,7 @@ Earlier experiments and project iterations, all **🔒 Private**. This inventory
 - [ai.ubq.fi](https://github.com/KarmSakha/ai.ubq.fi) — fork; original authorship belongs to the upstream project.
 - [de-eudi-wallet-backend](https://github.com/KarmSakha/de-eudi-wallet-backend) — fork; original authorship belongs to the upstream project.
 - [gitlabhq](https://github.com/KarmSakha/gitlabhq) — fork; original authorship belongs to the upstream project.
+- [mcp](https://github.com/KarmSakha/mcp) — fork; original authorship belongs to the upstream project.
 - [react-plaid-link](https://github.com/KarmSakha/react-plaid-link) — fork; original authorship belongs to the upstream project.
 - [secure-custom-fields](https://github.com/KarmSakha/secure-custom-fields) — fork; original authorship belongs to the upstream project.
 - [vinext](https://github.com/KarmSakha/vinext) — fork; original authorship belongs to the upstream project.
@@ -482,7 +483,7 @@ Earlier experiments and project iterations, all **🔒 Private**. This inventory
 
 </details>
 
-<sub>Public repository inventory refreshed 2026-10-18 UTC. Languages are repository metadata, not proficiency scores.</sub>
+<sub>Public repository inventory refreshed 2026-10-19 UTC. Languages are repository metadata, not proficiency scores.</sub>
 
 <!-- PUBLIC-INDEX:END -->
 
