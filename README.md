@@ -480,10 +480,11 @@ Earlier experiments and project iterations, all **🔒 Private**. This inventory
 - [secure-custom-fields](https://github.com/KarmSakha/secure-custom-fields) — fork; original authorship belongs to the upstream project.
 - [vinext](https://github.com/KarmSakha/vinext) — fork; original authorship belongs to the upstream project.
 - [workerd](https://github.com/KarmSakha/workerd) — fork; original authorship belongs to the upstream project.
+- [workers-sdk](https://github.com/KarmSakha/workers-sdk) — fork; original authorship belongs to the upstream project.
 
 </details>
 
-<sub>Public repository inventory refreshed 2026-10-19 UTC. Languages are repository metadata, not proficiency scores.</sub>
+<sub>Public repository inventory refreshed 2026-10-20 UTC. Languages are repository metadata, not proficiency scores.</sub>
 
 <!-- PUBLIC-INDEX:END -->
 
