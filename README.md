@@ -473,6 +473,7 @@ Earlier experiments and project iterations, all **🔒 Private**. This inventory
 
 - [ai-agents-for-beginners](https://github.com/KarmSakha/ai-agents-for-beginners) — fork; original authorship belongs to the upstream project.
 - [ai.ubq.fi](https://github.com/KarmSakha/ai.ubq.fi) — fork; original authorship belongs to the upstream project.
+- [claurst](https://github.com/KarmSakha/claurst) — fork; original authorship belongs to the upstream project.
 - [de-eudi-wallet-backend](https://github.com/KarmSakha/de-eudi-wallet-backend) — fork; original authorship belongs to the upstream project.
 - [gitlabhq](https://github.com/KarmSakha/gitlabhq) — fork; original authorship belongs to the upstream project.
 - [mcp](https://github.com/KarmSakha/mcp) — fork; original authorship belongs to the upstream project.
@@ -484,7 +485,7 @@ Earlier experiments and project iterations, all **🔒 Private**. This inventory
 
 </details>
 
-<sub>Public repository inventory refreshed 2026-10-25 UTC. Languages are repository metadata, not proficiency scores.</sub>
+<sub>Public repository inventory refreshed 2026-10-26 UTC. Languages are repository metadata, not proficiency scores.</sub>
 
 <!-- PUBLIC-INDEX:END -->
 
