@@ -485,7 +485,7 @@ Earlier experiments and project iterations, all **🔒 Private**. This inventory
 
 </details>
 
-<sub>Public repository inventory refreshed 2026-10-31 UTC. Languages are repository metadata, not proficiency scores.</sub>
+<sub>Public repository inventory refreshed 2026-11-01 UTC. Languages are repository metadata, not proficiency scores.</sub>
 
 <!-- PUBLIC-INDEX:END -->
 
